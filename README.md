@@ -36,3 +36,11 @@ Function declaration will look like this: combinationSum(int[] candidates, int t
 6. In the next step we remove the last value from result.
 
 7. Lastly if the target value is equal to 0 then we add the result in to list of lists.
+
+This algorithm has time complexity 
+```
+O((n+k)!) 
+where n is the size of candidates, and k is the max repeated times for each candidates
+and space complexity 
+O(m) where m is the size of array for the solution.
+```
